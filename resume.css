@@ -1,0 +1,51 @@
+hr {
+	display: block;
+	margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: "gold";
+}
+
+.head {
+	position: relative;
+	top: 0px;
+	width: 100%;
+}
+
+.topRight {
+	position: fixed;
+	top: 25px;
+	right: 100px;
+	border: 3px;
+}
+
+.leftSidebar1 {
+	float: left;
+	width: 15%;
+	height: 80%;
+	display: table-cell;
+	border: 1px solid;
+}
+
+.mainContent {
+	width: 80%;
+	height: 80%;
+	display: table-cell;
+	float: right;
+	border: 1px solid;
+}
+
+.customHead {
+	font-size: 24px;
+	color: #D5B507
+}
+
+.cell {
+	position: fixed;
+	top: 630px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	display: table-cell;
+	width: 100%;
